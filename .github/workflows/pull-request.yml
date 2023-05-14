@@ -25,4 +25,9 @@ jobs:
         run: npm ci
 
       - name: Code Linting
+        if: env.GIT_DIFF && !github.event.pull_request.draft
         run: npm run lint
+
+      - name: Test
+        if: env.GIT_DIFF && !github.event.pull_request.draft
+        run: npm run test
