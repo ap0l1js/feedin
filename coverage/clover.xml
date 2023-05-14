@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1684085508853" clover="3.2.0">
+  <project timestamp="1684085508853" name="All files">
+    <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="7" coveredelements="3" complexity="0" loc="6" ncloc="6" packages="1" files="3" classes="3"/>
+    <file name="App.tsx" path="/home/ap0l1js/Documents/ig/react/projects/feedin/src/App.tsx">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+    </file>
+    <file name="main.tsx" path="/home/ap0l1js/Documents/ig/react/projects/feedin/src/main.tsx">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+    </file>
+    <file name="vite-env.d.ts" path="/home/ap0l1js/Documents/ig/react/projects/feedin/src/vite-env.d.ts">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+  </project>
+</coverage>
