@@ -1,3 +1,3 @@
 export function App() {
-  return <div>bbb test</div>;
+  return <div>bbb</div>;
 }
