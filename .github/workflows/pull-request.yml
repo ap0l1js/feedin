@@ -1,16 +1,17 @@
 name: Lint
 
 on:
-pull_request:
-branches:
-  - main
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+    branches:
+      - main
 
 env:
   NODE_VERSION: 16
 
 jobs:
-  linting:
-    name: Linting
+  quality_assurance:
+    name: quality_assurance
     runs-on: ubuntu-latest
     steps:
       - name: Install NodeJS
