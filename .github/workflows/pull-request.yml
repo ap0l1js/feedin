@@ -1,4 +1,4 @@
-name: Lint
+name: Pull Request QA
 
 on:
   pull_request:
@@ -26,9 +26,9 @@ jobs:
         run: npm ci
 
       - name: Code Linting
-        if: env.GIT_DIFF && !github.event.pull_request.draft
+        if: !github.event.pull_request.draft
         run: npm run lint
 
       - name: Test
-        if: env.GIT_DIFF && !github.event.pull_request.draft
+        if: !github.event.pull_request.draft
         run: npm run test
