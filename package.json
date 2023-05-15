@@ -8,6 +8,7 @@
     "lint": "eslint src --fix --max-warnings=0",
     "format": "prettier src --write",
     "test": "jest",
+    "test:watch": "jest --watchAll --colors --detectOpenHandles",
     "coverage": "jest --coverage",
     "preview": "vite preview",
     "prepare": "husky install"

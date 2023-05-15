@@ -9,6 +9,7 @@ interface AvatarProperties {
 export function Avatar({ hasBorder = true, src, alt }: AvatarProperties) {
   return (
     <img
+      data-testid="picture"
       className={hasBorder ? styles.avatarWithBorder : styles.avatar}
       src={src}
       alt={alt}

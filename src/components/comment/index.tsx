@@ -32,7 +32,7 @@ export function Comment({ content, onDeleteComment }: CommentProperties) {
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Diego Fernandes</strong>
+              <strong>Rafael Leonardo</strong>
               <time
                 title="11 de Maio às 08:13h"
                 dateTime="2022-05-11 08:13:00"
@@ -42,6 +42,7 @@ export function Comment({ content, onDeleteComment }: CommentProperties) {
             </div>
 
             <button
+              data-testid="deleteComment"
               onClick={handleDeleteComment}
               title="Deletar comentário"
             >
